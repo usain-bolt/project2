@@ -167,9 +167,11 @@ body {
     text-transform: capitalize;
 }
 
+
 .search:focus {
     background-color: #fff;
 }
+
 
 .search-label:focus {
     width: 150px;
@@ -549,7 +551,6 @@ body {
         text-align: center;
         margin: 0 0 24px 0;
     }
-
     &-txt {
         display: block;
         font-family: 'montserrat', sans-serif;
@@ -561,7 +562,6 @@ body {
         width: 757px;
         text-align: center;
     }
-
     &-wrp {
         width: 605px;
         display: flex;
@@ -588,7 +588,6 @@ body {
         text-transform: capitalize;
         border: 1px solid #ebebeb;
         outline: none;
-
         &:hover {
             color: #ffffff;
             background-color: #998675;
@@ -789,7 +788,7 @@ body {
     opacity: 0.2;
     background-color: #000000;
     margin: 0 auto 44px auto;
-    fill: #ffffff;
+  fill: #ffffff;
     ;
     outline: none;
 }
@@ -825,7 +824,7 @@ body {
     text-align: center;
 }
 
-.video-txt-time {
+.video-txt-time 
     display: block;
     font-family: 'montserrat', sans-serif;
     font-size: 14px;
@@ -947,7 +946,6 @@ body {
         color: #c7b299;
         margin: 0 0 31px 0;
     }
-
 }
 
 /*Девятый блок Недавнее посты*/
@@ -1752,6 +1750,5 @@ body {
     .footer-links:first-child {
         margin: 0 0 10px 0;
     }
-
 
 }
