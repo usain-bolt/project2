@@ -176,7 +176,7 @@ body {
 
 .search {
   outline: none;
-  background-color: white;
+  background-color: transparent;
   border: 2px solid #fff;
   /*visibility: hidden;*/
   border: none;
@@ -184,6 +184,10 @@ body {
   top: 40px;
   left: 0px;
   text-transform: capitalize;
+}
+
+.search:focus {
+  background-color: #fff;
 }
 
 .search-label:focus {
