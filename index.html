@@ -19,15 +19,22 @@
                 </svg>
                 <span class="logo-txt">waxom</span>
             </a>
-            <div class="nav-wrap">
-                <a class="nav-link" href="#">home</a>
-                <a class="nav-link" href="#">about us</a>
-                <a class="nav-link" href="#">portfolio</a>
-                <a class="nav-link" href="#">features</a>
-                <a class="nav-link" href="#">blog</a>
-                <a class="nav-link" href="#">pricing</a>
-                <a class="nav-link" href="#">shortcodes</a>
-                <a class="nav-link" href="#">contact</a>
+            <div class="burger">
+                <label class="label-menu-top" for="input-menu-top"></label>
+                <input id="input-menu-top" type="checkbox">
+                <span class="decoration-menu-top first"></span>
+                <span class="decoration-menu-top second"></span>
+                <span class="decoration-menu-top third"></span>
+                <div class="nav-wrap">
+                    <a class="nav-link" href="#">home</a>
+                    <a class="nav-link" href="#">about us</a>
+                    <a class="nav-link" href="#">portfolio</a>
+                    <a class="nav-link" href="#">features</a>
+                    <a class="nav-link" href="#">blog</a>
+                    <a class="nav-link" href="#">pricing</a>
+                    <a class="nav-link" href="#">shortcodes</a>
+                    <a class="nav-link" href="#">contact</a>
+                </div>
             </div>
             <div class="nav-wrp">
                 <svg class="icon-busket" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -36,8 +43,8 @@
                         d="M15.995483,4.9985275 C15.995483,4.9985275 14.496216,4.9985275 14.496216,4.9985275 C14.496216,3.3417358 12.483032,1.998188 9.998779,1.998188 C7.5144043,1.998188 5.5009766,3.3417358 5.5009766,4.9985275 C5.5009766,4.9985275 4.001831,4.9985275 4.001831,4.9985275 C2.3458252,4.9985275 1.0032959,6.3412437 1.0032959,7.997204 C1.0032959,7.997204 1.0032959,22.995163 1.0032959,22.995163 C1.0032959,24.651123 2.3458252,25.994255 4.001831,25.994255 C4.001831,25.994255 15.995483,25.994255 15.995483,25.994255 C17.651611,25.994255 18.994263,24.651123 18.994263,22.995163 C18.994263,22.995163 18.994263,7.997204 18.994263,7.997204 C18.994263,6.3412437 17.651611,4.9985275 15.995483,4.9985275 ZM9.998779,3.4983559 C11.655029,3.4983559 12.99707,3.96241 12.99707,4.9985275 C12.99707,4.9985275 7.000244,4.9985275 7.000244,4.9985275 C7.000244,3.96241 8.342651,3.4983559 9.998779,3.4983559 ZM17.494995,22.995163 C17.494995,23.823143 16.823486,24.494087 15.995483,24.494087 C15.995483,24.494087 4.001831,24.494087 4.001831,24.494087 C3.173584,24.494087 2.5024414,23.823143 2.5024414,22.995163 C2.5024414,22.995163 2.5024414,21.495407 2.5024414,21.495407 C2.5024414,21.495407 17.494995,21.495407 17.494995,21.495407 C17.494995,21.495407 17.494995,22.995163 17.494995,22.995163 ZM17.494995,19.99524 C17.494995,19.99524 2.5024414,19.99524 2.5024414,19.99524 C2.5024414,19.99524 2.5024414,7.997204 2.5024414,7.997204 C2.5024414,7.168808 3.173584,6.497452 4.001831,6.497452 C4.001831,6.497452 5.5009766,6.497452 5.5009766,6.497452 C5.5009766,6.497452 5.5009766,10.997543 5.5009766,10.997543 C5.5009766,10.997543 7.000244,10.997543 7.000244,10.997543 C7.000244,10.997543 7.000244,6.497452 7.000244,6.497452 C7.000244,6.497452 12.99707,6.497452 12.99707,6.497452 C12.99707,6.497452 12.99707,10.997543 12.99707,10.997543 C12.99707,10.997543 14.496216,10.997543 14.496216,10.997543 C14.496216,10.997543 14.496216,6.497452 14.496216,6.497452 C14.496216,6.497452 15.995483,6.497452 15.995483,6.497452 C16.823975,6.497452 17.494995,7.168808 17.494995,7.997204 C17.494995,7.997204 17.494995,19.99524 17.494995,19.99524 Z" />
                 </svg>
                 <form class="form-search" action="#">
-                    <input class="search" type="search">
                     <label class="search-label" for="search">
+                        <input class="search" id="search" type="search">
                         <svg class="search-icon" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink" width="27" height="28" viewBox="0 0 27 28">
                             <path
@@ -121,7 +128,8 @@
         </section>
         <aside class="purchase">
             <div class="purchase-wrp">
-                <h3 class="purchase-title"><span class="purchase-title-text">Waxom</span> Multipurpose WordPress Theme
+                <h3 class="purchase-title">
+                    <span class="purchase-title-text">Waxom</span> Multipurpose WordPress Theme
                 </h3>
                 <p class="purchase-text">Don't Forget to Rate the Template. Thanks so much!</p>
             </div>
@@ -132,6 +140,11 @@
             <p class="latest-projects-txt">Investigationes demonstraverunt lectores legere me lius quod ii legunt
                 saepius. Claritas est etiam
                 processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                <div class="second-burger">
+                <input id="latest-projects-menu" type="checkbox">
+                <label class="latest-projects-menu-label" for="latest-projects-menu">Меню</label>
+                <span class="latest-projects-menu-style"></span>
+                </div>
             <div class="latest-projects-wrp">
                 <button class="latest-projects-button">all</button>
                 <button class="latest-projects-button">web design</button>
@@ -141,7 +154,7 @@
             </div>
             <div class="preview">
                 <div class="preview-item">
-                    <img class="preview-img" src="img/bg_photo_10894.png" alt="#">
+                    <img class="preview-img" src="img/bg_photo_10894.png" alt="#" width="370" height="237">
                     <div class="preview-wrapper">
                         <span class="preview-title">Claritas Etiam Processus</span>
                         <span class="preview-txt">Photography, Nature</span>
@@ -150,7 +163,7 @@
                     <button class="preview-btn-search"></button>
                 </div>
                 <div class="preview-item">
-                    <img class="preview-img" class="img" src="img/bg_photo_10906.png" alt="#">
+                    <img class="preview-img" class="img" src="img/bg_photo_10906.png" alt="#" width="370" height="237">
                     <div class="preview-wrapper">
                         <span class="preview-title">Quam Nutamus Farum</span>
                         <span class="preview-txt">Graphic Design, Mock-Up</span>
@@ -159,7 +172,7 @@
                     <button class="preview-btn-search"></button>
                 </div>
                 <div class="preview-item">
-                    <img class="preview-img" class="img" src="img/bg_photo_10918.png" alt="#">
+                    <img class="preview-img" class="img" src="img/bg_photo_10918.png" alt="#" width="370" height="237">
                     <div class="preview-wrapper">
                         <span class="preview-title">Usus Legentis Videntur</span>
                         <span class="preview-txt">Photography, Holiday</span>
@@ -168,7 +181,7 @@
                     <button class="preview-btn-search"></button>
                 </div>
                 <div class="preview-item">
-                    <img class="preview-img" src="img/bg_photo_10894.png" alt="#">
+                    <img class="preview-img" src="img/bg_photo_10894.png" alt="#" width="370" height="237">
                     <div class="preview-wrapper">
                         <span class="preview-title">Claritas Etiam Processus</span>
                         <span class="preview-txt">Photography, Nature</span>
@@ -177,7 +190,8 @@
                     <button class="preview-btn-search"></button>
                 </div>
                 <div class="preview-item">
-                    <img class="preview-img" src="img/bg_photo_10857.png" alt="#">
+
+                    <img class="preview-img" src="img/bg_photo_10857.png" alt="#" width="370" height="237">
                     <div class="preview-wrapper">
                         <span class="preview-title">Claritas Etiam Processus</span>
                         <span class="preview-txt">Photography, Nature</span>
@@ -186,7 +200,7 @@
                     <button class="preview-btn-search"></button>
                 </div>
                 <div class="preview-item">
-                    <img class="preview-img" src="img/bg_photo_10865.png" alt="#">
+                    <img class="preview-img" src="img/bg_photo_10865.png" alt="#" width="370" height="237">
                     <div class="preview-wrapper">
                         <span class="preview-title">Claritas Etiam Processus</span>
                         <span class="preview-txt">Photography, Nature</span>
@@ -204,8 +218,9 @@
                 but don't worry, you can <a href="videofile.ogg">download it</a>
                 and watch it with your favorite video player!</video>
             <div class="video-txt-wrp">
-                <button class="video-txt-btn"><svg xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="76" viewBox="0 0 80 76">
+                <button class="video-txt-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80"
+                        height="76" viewBox="0 0 80 76">
                         <path
                             d="M34.933594,56.81958 C34.637512,56.81958 34.339172,56.755127 34.060303,56.62549 C33.336792,56.28662 32.874207,55.559082 32.874207,54.760254 C32.874207,54.760254 32.874207,25.235107 32.874207,25.235107 C32.874207,24.436035 33.336548,23.708252 34.060303,23.369629 C34.783447,23.030273 35.639526,23.141113 36.252625,23.652588 C36.252625,23.652588 53.967285,38.415283 53.967285,38.415283 C54.437073,38.80664 54.70862,39.38623 54.70862,39.997314 C54.70862,40.609375 54.437256,41.188477 53.967285,41.580322 C53.967285,41.580322 36.252625,56.34253 36.252625,56.34253 C35.87567,56.65674 35.4068,56.81958 34.933594,56.81958 ZM36.99408,29.632812 C36.99408,29.632812 36.99408,50.362305 36.99408,50.362305 C36.99408,50.362305 49.431274,39.997314 49.431274,39.997314 C49.431274,39.997314 36.99408,29.632812 36.99408,29.632812 ZM39.93683,74.99829 C34.072144,74.99902 28.173218,73.53589 22.830505,70.52759 C21.839355,69.96997 21.487915,68.71338 22.046387,67.72217 C22.603699,66.73096 23.860046,66.37891 24.851929,66.937744 C36.869812,73.703125 52.082397,71.61157 61.845276,61.845215 C73.89203,49.798096 73.89203,30.19751 61.845276,18.149902 C49.7984,6.1013184 30.19629,6.1018066 18.150024,18.149902 C6.10376,30.19751 6.10376,49.798096 18.150024,61.845215 C18.954529,62.649414 18.954529,63.954346 18.150024,64.75903 C17.346497,65.56348 16.04187,65.56348 15.237244,64.75903 C1.5844727,51.104736 1.5844727,28.890137 15.237244,15.236084 C28.890625,1.5842285 51.104065,1.5830078 64.75903,15.236084 C78.411865,28.890137 78.411865,51.104736 64.75903,64.75903 C58.033325,71.484375 49.025696,74.99829 39.93683,74.99829 Z" />
                     </svg></button>
@@ -280,8 +295,144 @@
                 <span class="five-pluses-txt">We launched</span>
             </div>
         </section>
+        <section class="recent-post">
+            <h3 class="recent-post-title">Recent Posts.</h3>
+            <p class="recent-post-txt">Investigationes demonstraverunt lectores legere me lius quod ii legunt
+                saepius. Claritas est etiam
+                processus dynamicus, qui sequitur mutationem consuetudium.</p>
+            <div class="recent-post-wrp">
+                <div class="recent-post-item">
+                    <img class="recent-post-item-img" src="img/bg_photo_11639.png" alt="#" width="370" height="220">
+                    <div class="recent-post-item-date">
+                        <span class="day">30</span>
+                        <span class="month">Sep.</span>
+                    </div>
+                    <div class="recent-post-item-pag">
+                        <a class="recent-post-item-pag-link" href="#"></a>
+                        <a class="recent-post-item-pag-link" href="#"></a>
+                        <a class="recent-post-item-pag-link" href="#"></a>
+                        <a class="recent-post-item-pag-link" href="#"></a>
+                        <a class="recent-post-item-pag-link" href="#"></a>
+                    </div>
+                    <h3 class="recent-post-item-title">Lorem ipsum dolor sit amet</h3>
+                    <p class="recent-post-item-txt">Claritas est etiam processus dynamicus, qui sequitur
+                        mutationem consuetudium.</p>
+                    <a class="recent-post-item-link" href="#">Read More</a>
+                </div>
+                <div class="recent-post-item">
+                    <img class="recent-post-item-img" src="img/bg_photo_11685.png" alt="#" width="370" height="220">
+                    <div class="recent-post-item-date">
+                        <span class="day">30</span>
+                        <span class="month">Sep.</span>
+                    </div>
+                    <h3 class="recent-post-item-title">Lorem ipsum dolor sit amet</h3>
+                    <p class="recent-post-item-txt">Text: Claritas est etiam processus dynamicus, qui sequitur
+                        mutationem consuetudium.</p>
+                    <a class="recent-post-item-link" href="#">Read More</a>
+                </div>
+                <div class="recent-post-item">
+                    <img class="recent-post-item-img" src="img/bg_photo_11718.png" alt="#" width="370" height="220">
+                    <div class="recent-post-item-date">
+                        <span class="day">30</span>
+                        <span class="month">Sep.</span>
+                    </div>
+                    <h3 class="recent-post-item-title">Lorem ipsum dolor sit amet</h3>
+                    <p class="recent-post-item-txt">Text: Claritas est etiam processus dynamicus, qui sequitur
+                        mutationem consuetudium.</p>
+                    <a class="recent-post-item-link" href="#">Read More</a>
+                </div>
+            </div>
+            <div class="recent-post-wrap">
+                <svg class="recent-post-icon" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                        d="M8.582764,11.434082 C8.582764,11.434082 13.354858,6.661133 13.354858,6.661133 C13.641541,6.3745117 14.107849,6.3745117 14.395264,6.661133 C14.681885,6.9487305 14.681885,7.4155273 14.395264,7.7021484 C14.395264,7.7021484 10.140686,11.957031 10.140686,11.957031 C10.140686,11.957031 14.395264,16.21045 14.395264,16.21045 C14.681885,16.497559 14.681885,16.96289 14.395264,17.251465 C14.107849,17.538574 13.641541,17.538574 13.354858,17.251465 C13.354858,17.251465 8.582764,12.47998 8.582764,12.47998 C8.437683,12.334961 8.365662,12.14502 8.3671875,11.957031 C8.3671875,11.766602 8.437683,11.579102 8.582764,11.434082 ZM11.987427,1.0258789 C18.053467,1.0258789 22.972107,5.9433594 22.972107,12.010742 C22.972107,18.076172 18.053467,22.994629 11.987427,22.994629 C5.9211426,22.994629 1.0032349,18.076172 1.0032349,12.010742 C1.0032349,5.9433594 5.9211426,1.0258789 11.987427,1.0258789 ZM11.987427,21.52295 C17.232239,21.52295 21.50055,17.253418 21.50055,12.010742 C21.50055,6.7651367 17.232239,2.4970703 11.987427,2.4970703 C6.743164,2.4970703 2.4748535,6.7651367 2.4748535,12.010742 C2.4748535,17.253418 6.743164,21.52295 11.987427,21.52295 Z" />
+                </svg>
+                <svg class="recent-post-icon" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                        d="M15.417053,11.434082 C15.417053,11.434082 10.644897,6.661133 10.644897,6.661133 C10.358215,6.3745117 9.891846,6.3745117 9.604492,6.661133 C9.31781,6.9487305 9.31781,7.4155273 9.604492,7.7021484 C9.604492,7.7021484 13.859192,11.957031 13.859192,11.957031 C13.859192,11.957031 9.604492,16.21045 9.604492,16.21045 C9.31781,16.497559 9.31781,16.96289 9.604492,17.251465 C9.891846,17.538574 10.358215,17.538574 10.644897,17.251465 C10.644897,17.251465 15.417053,12.47998 15.417053,12.47998 C15.562195,12.334961 15.634033,12.14502 15.63269,11.957031 C15.63269,11.766602 15.562195,11.579102 15.417053,11.434082 ZM12.012329,1.0258789 C5.946289,1.0258789 1.0275879,5.9433594 1.0275879,12.010742 C1.0275879,18.076172 5.946289,22.994629 12.012329,22.994629 C18.078613,22.994629 22.996582,18.076172 22.996582,12.010742 C22.996582,5.9433594 18.078613,1.0258789 12.012329,1.0258789 ZM12.012329,21.52295 C6.767639,21.52295 2.4992065,17.253418 2.4992065,12.010742 C2.4992065,6.7651367 6.767639,2.4970703 12.012329,2.4970703 C17.256592,2.4970703 21.524902,6.7651367 21.524902,12.010742 C21.524902,17.253418 17.256592,21.52295 12.012329,21.52295 Z" />
+                </svg>
+            </div>
+        </section>
+        <section class="banners-wrp">
+            <img class="banners-logo" src="img/logo_01_11138.png" alt="#" width="210" height="127">
+            <img class="banners-logo" src="img/logo_02_11139.png" alt="#" width="210" height="210">
+            <img class="banners-logo" src="img/logo_03_11140.png" alt="#" width="210" height="130">
+            <img class="banners-logo" src="img/logo_04_11141.png" alt="#" width="210" height="164">
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        <section class="description-wrp">
+            <div class="waxom-wrp">
+                <a class="waxom-wrp-logo" href="#">
+                    <svg class="waxom-wrp-logo-svg" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" width="66" height="59" viewBox="0 0 66 59">
+                        <path
+                            d="M38.107788,12.713379 C38.107788,12.713379 27.60028,12.713379 27.60028,12.713379 C27.60028,12.713379 32.854034,21.905273 32.854034,21.905273 C32.854034,21.905273 38.107788,12.713379 38.107788,12.713379 ZM26.286285,13.47998 C26.286285,13.47998 21.03241,22.670898 21.03241,22.670898 C21.03241,22.670898 31.54004,22.670898 31.54004,22.670898 C31.54004,22.670898 26.286285,13.47998 26.286285,13.47998 ZM44.67566,22.670898 C44.67566,22.670898 39.42169,13.47998 39.42169,13.47998 C39.42169,13.47998 34.16806,22.670898 34.16806,22.670898 C34.16806,22.670898 44.67566,22.670898 44.67566,22.670898 ZM34.16806,24.201172 C34.16806,24.201172 39.42169,33.38916 39.42169,33.38916 C39.42169,33.38916 44.67566,24.201172 44.67566,24.201172 C44.67566,24.201172 34.16806,24.201172 34.16806,24.201172 ZM21.03241,24.201172 C21.03241,24.201172 26.286285,33.38916 26.286285,33.38916 C26.286285,33.38916 31.54004,24.201172 31.54004,24.201172 C31.54004,24.201172 21.03241,24.201172 21.03241,24.201172 ZM14.464661,34.15381 C14.464661,34.15381 24.971344,34.15381 24.971344,34.15381 C24.971344,34.15381 19.718384,24.966797 19.718384,24.966797 C19.718384,24.966797 14.464661,34.15381 14.464661,34.15381 ZM51.243317,34.15381 C51.243317,34.15381 45.989685,24.966797 45.989685,24.966797 C45.989685,24.966797 40.73764,34.15381 40.73764,34.15381 C40.73764,34.15381 51.243317,34.15381 51.243317,34.15381 ZM32.854034,1.9931641 C32.854034,1.9931641 27.60028,11.184082 27.60028,11.184082 C27.60028,11.184082 38.107788,11.184082 38.107788,11.184082 C38.107788,11.184082 32.854034,1.9931641 32.854034,1.9931641 ZM45.989685,44.874023 C45.989685,44.874023 51.243317,35.686035 51.243317,35.686035 C51.243317,35.686035 40.73764,35.686035 40.73764,35.686035 C40.73764,35.686035 45.989685,44.874023 45.989685,44.874023 ZM19.718384,44.874023 C19.718384,44.874023 24.971344,35.686035 24.971344,35.686035 C24.971344,35.686035 14.464661,35.686035 14.464661,35.686035 C14.464661,35.686035 19.718384,44.874023 19.718384,44.874023 ZM7.897003,45.6416 C7.897003,45.6416 18.403687,45.6416 18.403687,45.6416 C18.403687,45.6416 13.150757,36.45117 13.150757,36.45117 C13.150757,36.45117 7.897003,45.6416 7.897003,45.6416 ZM57.811096,45.6416 C57.811096,45.6416 52.557343,36.45117 52.557343,36.45117 C52.557343,36.45117 47.303345,45.6416 47.303345,45.6416 C47.303345,45.6416 57.811096,45.6416 57.811096,45.6416 ZM47.303345,47.171875 C47.303345,47.171875 52.557343,56.358887 52.557343,56.358887 C52.557343,56.358887 57.811096,47.171875 57.811096,47.171875 C57.811096,47.171875 47.303345,47.171875 47.303345,47.171875 ZM34.16806,47.171875 C34.16806,47.171875 39.42169,56.358887 39.42169,56.358887 C39.42169,56.358887 44.67566,47.171875 44.67566,47.171875 C44.67566,47.171875 34.16806,47.171875 34.16806,47.171875 ZM13.150757,56.358887 C13.150757,56.358887 18.403687,47.171875 18.403687,47.171875 C18.403687,47.171875 7.897003,47.171875 7.897003,47.171875 C7.897003,47.171875 13.150757,56.358887 13.150757,56.358887 ZM1.3310547,57.12793 C1.3310547,57.12793 11.835815,57.12793 11.835815,57.12793 C11.835815,57.12793 6.582062,47.938965 6.582062,47.938965 C6.582062,47.938965 1.3310547,57.12793 1.3310547,57.12793 ZM27.60028,57.12793 C27.60028,57.12793 38.107788,57.12793 38.107788,57.12793 C38.107788,57.12793 32.854034,47.938965 32.854034,47.938965 C32.854034,47.938965 27.60028,57.12793 27.60028,57.12793 ZM40.73764,57.12793 C40.73764,57.12793 51.243317,57.12793 51.243317,57.12793 C51.243317,57.12793 45.989685,47.938965 45.989685,47.938965 C45.989685,47.938965 40.73764,57.12793 40.73764,57.12793 ZM59.12509,47.938965 C59.12509,47.938965 53.873047,57.12793 53.873047,57.12793 C53.873047,57.12793 64.377014,57.12793 64.377014,57.12793 C64.377014,57.12793 59.12509,47.938965 59.12509,47.938965 Z" />
+                    </svg>
+                    <span class="waxom-wrp-logo-txt">Waxom</span>
+                </a>
+                <p class="waxom-txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                    nibh euismod
+                    tincidunt ut
+                    laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+                    suscipit lobortis claritatem.</p>
+                <a class="waxom-link" href="#">Read More</a>
+            </div>
+            <div class="recent-posts-wrp">
+                <h3 class="recent-posts-title">Recent Posts</h3>
+                <div class="recent-posts">
+                    <span class="recent-posts-date">September 08, 2015</span>
+                    <p class="recent-posts-txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                </div>
+                <div class="recent-posts">
+                    <span class="recent-posts-date">September 08, 2015</span>
+                    <p class="recent-posts-txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                </div>
+                <div class="recent-posts">
+                    <span class="recent-posts-date">September 08, 2015</span>
+                    <p class="recent-posts-txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                </div>
+            </div>
+            <div class="our-twit-wrp">
+                <h3 class="our-twit-title">Our Twitter</h3>
+                <div class="our-twit-wrap">
+                    <p class="our-twit-txt"><a class="blue" href="#">@waxom</a> Cum soluta nobis eleifend option congue
+                        nihil imperdiet doming</p>
+                    <span class="our-twit-time">3 mins ago</span>
+                </div>
+                <div class="our-twit-wrap">
+                    <p class="our-twit-txt">Mirum est <a class="blue" href="#">#envato</a> notare quam littera gothica,
+                        quam nunc putamus parum anteposuerit litterarum</p>
+                    <span class="our-twit-time">3 mins ago</span>
+                </div>
+                <div class="our-twit-wrap">
+                    <p class="our-twit-txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                    <span class="our-twit-time">3 mins ago</span>
+                </div>
+            </div>
+            <div class="dribble-wrp">
+                <h3 class="dribble-title">Dribbble Widget</h3>
+                <img class="dribble-img" src="img/bg_photo_8842.png" alt="#" width="130" height="98">
+                <img class="dribble-img" src="img/bg_photo_9778.png" alt="#" width="130" height="98">
+                <img class="dribble-img" src="img/bg_photo_9781.png" alt="#" width="130" height="98">
+                <img class="dribble-img" src="img/bg_photo_9784.png" alt="#" width="130" height="98">
+            </div>
+        </section>
+        <section class="footer-links-wrp">
+            <div class="footer-links">
+                <span class="footer-link">Copyright &copy; 2015 <a class="brand-link" href="#">Waxom</a></span>
+                <a class="footer-link" href="#">Privacy Policy</a>
+                <a class="footer-link" href="#">FAQ</a>
+                <a class="footer-link" href="#">Support</a>
+            </div>
+            <div class="footer-links">
+                <span class="footer-links-txt">Designed by <a class="footer-lnk" href="#">ThemeFire</a></span>
+                <span class="footer-links-txt">Only on <a class="footer-lnk" href="#">Envato Market</a></span>
+            </div>
+        </section>
+    </footer>
 </body>
 
 </html>
